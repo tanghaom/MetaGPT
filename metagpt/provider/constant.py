@@ -30,16 +30,12 @@ GENERAL_FUNCTION_SCHEMA = {
 # https://platform.openai.com/docs/api-reference/chat/create#chat-create-tool_choice
 GENERAL_TOOL_CHOICE = {"type": "function", "function": {"name": "execute"}}
 
-
+# keyword
 MULTI_MODAL_MODELS = [
     "gpt-4o",
-    "gpt-4o-mini",
-    "openai/gpt-4o",
-    "gemini-2.0-flash-exp",
-    "gemini-2.0-pro-exp-02-05",
-    "claude-3-5-sonnet-v2",
-    "google/gemini-2.0-flash-exp:free",
-    "google/gemini-2.0-pro-exp-02-05:free",
-    "anthropic/claude-3.5-sonnet",
-    "anthropic/claude-3.7-sonnet",
+    "gemini",
+    "sonnet",
+    "z-ai/glm-4.5v",
+    "VL",
+    "vl"
 ]
